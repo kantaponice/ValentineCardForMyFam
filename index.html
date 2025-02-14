@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Magical Valentine's Day Card</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1 class="valentine">Happy Valentine's Day</h1>
+    <div class="envelope-wrapper">
+        <div id="envelope-container">
+            <div id="envelope">
+                <div class="heart"></div>
+                <div class="letter active" onclick="swapContent()">
+                    <div class="letter-content">
+                        <div class="heart-decoration1">❤</div>
+                        <div class="text-content">
+                        <p class="words">Dear My Family</p>
+                        <p class="words">Family is the first love we ever know, and it stays with us forever.<br>Your love, support, and warmth mean the world to me.<br>Thank you for always being there.
+                        <p class="words">Wishing you all a Happy Valentine’s Day filled with love and joy!<br>My Fam ♥</div><br><br>ลองกดดู</p>
+                        <div class="heart-decoration2">❤</div>
+                    </div>
+                </div>
+
+                <div class="image" onclick="swapContent()">
+                    <img src="./pic/1.jpg" alt="Image2">
+                </div>
+                <div class="image" onclick="swapContent()">
+                    <img src="./pic/2.jpg" alt="Image2">
+                </div>
+                <div class="image" onclick="swapContent()">
+                    <img src="./pic/3.png" alt="Image2">
+                </div>
+                <div class="image" onclick="swapContent()">
+                    <img src="./pic/4.png" alt="Image2">
+                </div>
+                <div class="image" onclick="swapContent()">
+                    <img src="./pic/5.jpg" alt="Image2">
+                </div>
+                <div class="image" onclick="swapContent()">
+                    <img src="./pic/6.jpg" alt="Image3">
+                </div>
+                <div class="image" onclick="swapContent()">
+                    <img src="./pic/7.jpg" alt="Image4">
+                </div>
+                <div class="image" onclick="swapContent()">
+                    <img src="./pic/8.jpg" alt="Image5">
+                </div>
+                <div class="image" onclick="swapContent()">
+                    <img src="./pic/9.jpg" alt="Image6">
+                </div>
+                <div class="image" onclick="swapContent()">
+                    <img src="./pic/10.jpg" alt="Image7">
+                </div>
+               
+                
+            </div>
+        </div>
+    </div>
+    <div class="reset">
+        <button id="open">Open</button>
+        <button id="reset">Reset</button>
+    </div>
+    <div class="music-control">
+        <button id="musicToggle">♪</button>
+    </div>
+    <audio id="bgMusic" loop>
+        <source src="./music/MV.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="index.js"></script>
+</body>
+</html>
